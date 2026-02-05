@@ -11,15 +11,14 @@ Editora VARCHAR(100),
 Volume INT
 );
 
-INSERT INTO (Titulo, Autor, Editora, Volume) VALUES ("Naruto","Masashi Kishimoto", "Shueisha", 43);
+INSERT INTO produtos (Titulo, Autor, Editora, Volume) VALUES ("Naruto","Masashi Kishimoto", "Shueisha", 43);
+INSERT INTO produtos (Titulo, Autor, Editora, Volume) VALUES ("Harry Potter e a Pedra Filosofal","JK Rowling", "Rocco", 01);
+INSERT INTO produtos (Titulo, Autor, Editora, Volume) VALUES ("My Hero Academy","Kohei Horikoshi", "Shueisha", 20);
+INSERT INTO produtos (Titulo, Autor, Editora, Volume) VALUES ("Monster","Naoki Urasawa", "Shogakukan", 15);
+INSERT INTO produtos (Titulo, Autor, Editora, Volume) VALUES ("Silêncio dos Inocentes","Thomas Harris", "Record", 01);
+INSERT INTO produtos (Titulo, Autor, Editora, Volume) VALUES ("Introdução à Linguagem SQL","Thomas Nield", "Novatec", 01);
 
-CREATE TABLE vendas(
-ID_Vendas INT PRIMARY KEY AUTO_INCREMENT,
-Quantidade INT,
-VALOR DECIMAL(10,2)
-);
 
-INSERT INTO vendas (Quantidade, Valor) VALUES (35,25.50);
 
 
 
