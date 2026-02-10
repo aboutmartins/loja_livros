@@ -4,12 +4,6 @@ CREATE DATABASE livrariafic;
 -- --
 USE livrariafic;
 
-
-CREATE DATABASE livrariafic;
--- --
-USE livrariafic;
-
-
 CREATE TABLE produtos
 ( 
 id_produto INT PRIMARY KEY AUTO_INCREMENT,
