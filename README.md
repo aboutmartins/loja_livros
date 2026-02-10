@@ -1,4 +1,4 @@
-Criei tabelas de Vendas e Produtos para treinar modelagem de dados
+Criei tabelas de Vendas, Produtos e Clientes para treinar modelagem de dados
 em um cenário fictício.
 
 Foram aplicados os seguintes conceitos:
